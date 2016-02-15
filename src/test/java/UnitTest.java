@@ -3,7 +3,11 @@ import static org.junit.Assert.*;
 
 public class UnitTest {
 
-
+@Test
+public void getVolume_333_27() {
+  Parcel myParcel = new Parcel(3,3,3,1);
+  assertEquals(27, myParcel.getVolume());
+}
 
 /*
 @Test
